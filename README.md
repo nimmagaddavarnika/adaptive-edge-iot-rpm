@@ -63,3 +63,19 @@ streamlit run cardiac_risk_dashboard.py --server.port 8502
 - [ ] Waveform-level deep learning (1D-CNN) instead of hand-engineered features
 - [ ] Per-patient personalized baseline adaptation
 - [ ] Experimental evaluation: fusion vs. single-signal false alert rates
+
+## Screenshots
+
+**Live sensor dashboard — finger detection, BPM, IR value, ECG lead status**
+![Dashboard overview](images/dashboard-overview.jpeg)
+
+**PPG waveform (AC component) and heart rate trend**
+![PPG waveform and BPM trend](images/ppg-waveform-bpm-trend.jpeg)
+
+**AD8232 ECG waveform (smoothed) — captured during a session with reliable
+electrode contact**
+![ECG waveform](images/ecg-waveform.jpeg)
+
+**MPU6050 motion data during activity — demonstrates the system's
+motion-context awareness**
+![Motion data](images/motion-data.jpeg)
